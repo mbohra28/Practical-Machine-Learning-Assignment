@@ -1,0 +1,52 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:16.0px;color:rgb(66,66,66);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:16.0px;color:rgb(66,66,66);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:11.1px;color:rgb(66,66,66);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:11.1px;color:rgb(66,66,66);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:10.0px;color:rgb(66,66,66);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:10.0px;color:rgb(66,66,66);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="52ade764-cceb-11ea-8b25-0cc47a792c0a_id_52ade764-cceb-11ea-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="52ade764-cceb-11ea-8b25-0cc47a792c0a_id_52ade764-cceb-11ea-8b25-0cc47a792c0a_files/background1.jpg" width=612 height=792></div>
+<div style="position:absolute;left:173.06px;top:89.90px" class="cls_002"><span class="cls_002">Practical Machine Learning Project</span></div>
+<div style="position:absolute;left:72.02px;top:133.46px" class="cls_003"><span class="cls_003">Loading and cleaning the Data :</span></div>
+<div style="position:absolute;left:72.02px;top:153.98px" class="cls_004"><span class="cls_004">All functions are loaded and assigned to variables. Also, the seed is set so the pseudo-random number</span></div>
+<div style="position:absolute;left:72.02px;top:171.02px" class="cls_004"><span class="cls_004">generator operates in a consistent way for repeat-ability.</span></div>
+<div style="position:absolute;left:72.02px;top:212.90px" class="cls_003"><span class="cls_003">Download the files and read them into memory :</span></div>
+<div style="position:absolute;left:72.02px;top:233.42px" class="cls_004"><span class="cls_004">The files are read into memory. Various indicators of missing data (i.e., “NA”, “#DIV/0!” and “”) are all set</span></div>
+<div style="position:absolute;left:72.02px;top:250.61px" class="cls_004"><span class="cls_004">to NA so they can be processed.</span></div>
+<div style="position:absolute;left:72.02px;top:292.49px" class="cls_003"><span class="cls_003">Remove unnecessary columns :</span></div>
+<div style="position:absolute;left:72.02px;top:312.77px" class="cls_004"><span class="cls_004">Columns that are not required for the model and columns that contain NAs are eliminated.</span></div>
+<div style="position:absolute;left:72.02px;top:354.77px" class="cls_003"><span class="cls_003">Slice the data for cross validation :</span></div>
+<div style="position:absolute;left:72.02px;top:375.17px" class="cls_004"><span class="cls_004">The training data is divided into two sets. This first is a training set with 70% of the data which is used to</span></div>
+<div style="position:absolute;left:72.02px;top:392.33px" class="cls_004"><span class="cls_004">train the model. The second is a validation set used to assess model performance.</span></div>
+<div style="position:absolute;left:72.02px;top:434.23px" class="cls_003"><span class="cls_003">Train the model :</span></div>
+<div style="position:absolute;left:72.02px;top:454.75px" class="cls_004"><span class="cls_004">The training data-set is used to fit a Random Forest model because it automatically selects important</span></div>
+<div style="position:absolute;left:72.02px;top:471.91px" class="cls_004"><span class="cls_004">variables and is robust to correlated covariates & outliers in general. 5-fold cross validation is used when</span></div>
+<div style="position:absolute;left:72.02px;top:489.19px" class="cls_004"><span class="cls_004">applying the algorithm. A Random Forest algorithm is a way of averaging multiple deep decision trees,</span></div>
+<div style="position:absolute;left:72.02px;top:506.47px" class="cls_004"><span class="cls_004">trained on different parts of the same data-set, with the goal of reducing the variance. This typically</span></div>
+<div style="position:absolute;left:72.02px;top:523.75px" class="cls_004"><span class="cls_004">produces better performance at the expense of bias and interpret-ability. The Cross-validation technique</span></div>
+<div style="position:absolute;left:72.02px;top:540.91px" class="cls_004"><span class="cls_004">assesses how the results of a statistical analysis will generalize to an independent data set. In 5-fold</span></div>
+<div style="position:absolute;left:72.02px;top:558.19px" class="cls_004"><span class="cls_004">cross-validation, the original sample is randomly partitioned into 5 equal sized sub-samples. A single</span></div>
+<div style="position:absolute;left:72.02px;top:575.47px" class="cls_004"><span class="cls_004">sample is retained for validation and the other sub-samples are used as training data. The process is</span></div>
+<div style="position:absolute;left:72.02px;top:592.66px" class="cls_004"><span class="cls_004">repeated 5 times and the results from the folds are averaged.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="52ade764-cceb-11ea-8b25-0cc47a792c0a_id_52ade764-cceb-11ea-8b25-0cc47a792c0a_files/background2.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.02px;top:88.46px" class="cls_003"><span class="cls_003">Estimate performance :</span></div>
+<div style="position:absolute;left:72.02px;top:108.98px" class="cls_004"><span class="cls_004">The model fit using the training data is tested against the validation data. Predicted values for the</span></div>
+<div style="position:absolute;left:72.02px;top:126.14px" class="cls_004"><span class="cls_004">validation data are then compared to the actual values. This allows forecasting the accuracy and overall</span></div>
+<div style="position:absolute;left:72.02px;top:143.30px" class="cls_004"><span class="cls_004">out-of-sample error, which indicate how well the model will perform with other data.</span></div>
+</div>
+
+</body>
+</html>
